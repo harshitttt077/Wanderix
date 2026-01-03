@@ -30,7 +30,7 @@ const Navbar = () => {
     };
 
     const navLinks = [
-        { name: 'Destinations', path: '/destinations' },
+        { name: 'Treks', path: '/destinations' },
         ...(user ? [
             { name: 'Dashboard', path: '/dashboard' },
             { name: 'My Trips', path: '/trips' }
